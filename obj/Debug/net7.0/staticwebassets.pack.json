@@ -29,16 +29,16 @@
       "PackagePath": "staticwebassets\\js\\icons-cards\\arrow.png"
     },
     {
+      "Id": "C:\\Users\\gui_f\\source\\repos\\Guilherme\\wwwroot\\js\\icons-cards\\c++.png",
+      "PackagePath": "staticwebassets\\js\\icons-cards\\c++.png"
+    },
+    {
       "Id": "C:\\Users\\gui_f\\source\\repos\\Guilherme\\wwwroot\\js\\icons-cards\\coolors.png",
       "PackagePath": "staticwebassets\\js\\icons-cards\\coolors.png"
     },
     {
       "Id": "C:\\Users\\gui_f\\source\\repos\\Guilherme\\wwwroot\\js\\icons-cards\\csharp.png",
       "PackagePath": "staticwebassets\\js\\icons-cards\\csharp.png"
-    },
-    {
-      "Id": "C:\\Users\\gui_f\\source\\repos\\Guilherme\\wwwroot\\js\\icons-cards\\css.png",
-      "PackagePath": "staticwebassets\\js\\icons-cards\\css.png"
     },
     {
       "Id": "C:\\Users\\gui_f\\source\\repos\\Guilherme\\wwwroot\\js\\icons-cards\\english.png",
@@ -53,10 +53,6 @@
       "PackagePath": "staticwebassets\\js\\icons-cards\\git.png"
     },
     {
-      "Id": "C:\\Users\\gui_f\\source\\repos\\Guilherme\\wwwroot\\js\\icons-cards\\html.png",
-      "PackagePath": "staticwebassets\\js\\icons-cards\\html.png"
-    },
-    {
       "Id": "C:\\Users\\gui_f\\source\\repos\\Guilherme\\wwwroot\\js\\icons-cards\\intellij.png",
       "PackagePath": "staticwebassets\\js\\icons-cards\\intellij.png"
     },
@@ -65,12 +61,20 @@
       "PackagePath": "staticwebassets\\js\\icons-cards\\java.png"
     },
     {
-      "Id": "C:\\Users\\gui_f\\source\\repos\\Guilherme\\wwwroot\\js\\icons-cards\\javascript.png",
-      "PackagePath": "staticwebassets\\js\\icons-cards\\javascript.png"
+      "Id": "C:\\Users\\gui_f\\source\\repos\\Guilherme\\wwwroot\\js\\icons-cards\\mdnwebdocs.png",
+      "PackagePath": "staticwebassets\\js\\icons-cards\\mdnwebdocs.png"
+    },
+    {
+      "Id": "C:\\Users\\gui_f\\source\\repos\\Guilherme\\wwwroot\\js\\icons-cards\\mysql.png",
+      "PackagePath": "staticwebassets\\js\\icons-cards\\mysql.png"
     },
     {
       "Id": "C:\\Users\\gui_f\\source\\repos\\Guilherme\\wwwroot\\js\\icons-cards\\paletton.png",
       "PackagePath": "staticwebassets\\js\\icons-cards\\paletton.png"
+    },
+    {
+      "Id": "C:\\Users\\gui_f\\source\\repos\\Guilherme\\wwwroot\\js\\icons-cards\\photoshop.png",
+      "PackagePath": "staticwebassets\\js\\icons-cards\\photoshop.png"
     },
     {
       "Id": "C:\\Users\\gui_f\\source\\repos\\Guilherme\\wwwroot\\js\\icons-cards\\resizeimages.png",
@@ -87,6 +91,14 @@
     {
       "Id": "C:\\Users\\gui_f\\source\\repos\\Guilherme\\wwwroot\\js\\icons-cards\\visualstudio.png",
       "PackagePath": "staticwebassets\\js\\icons-cards\\visualstudio.png"
+    },
+    {
+      "Id": "C:\\Users\\gui_f\\source\\repos\\Guilherme\\wwwroot\\js\\icons-cards\\visualstudiocode.png",
+      "PackagePath": "staticwebassets\\js\\icons-cards\\visualstudiocode.png"
+    },
+    {
+      "Id": "C:\\Users\\gui_f\\source\\repos\\Guilherme\\wwwroot\\js\\icons-cards\\w3schools.png",
+      "PackagePath": "staticwebassets\\js\\icons-cards\\w3schools.png"
     },
     {
       "Id": "C:\\Users\\gui_f\\source\\repos\\Guilherme\\wwwroot\\js\\icons\\github.png",

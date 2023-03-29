@@ -5,19 +5,20 @@
 
 <div class="icon">
     <a href="https://www.linkedin.com/in/guilherme-lu%C3%ADs-carneiro-da-silva-2b3160252/" target="_blank">
-        <img id="img1" src="~/js/icons/linkedingray.png" onmouseover="newImgLinkedin()" onmouseout="oldImgLinkedin()">
+        <img src="~/js/icons/linkedingray.png" onmouseover="ChangeIcon(this,'js/icons/linkedin.png')" onmouseout="ChangeIcon(this,'js/icons/linkedingray.png')" />
     </a>
     <a href="https://github.com/GuilhermeLCS95" target="_blank">
-        <img id="img2" src="~/js/icons/githubgray.png" onmouseover="newImgGithub()" onmouseout="oldImgGithub()">
+        <img src="~/js/icons/githubgray.png" onmouseover="ChangeIcon(this,'js/icons/github.png')" onmouseout="ChangeIcon(this,'js/icons/githubgray.png')" />
     </a>
     <a href="Home/DownloadFile/" download>
-        <img id="img3" src="~/js/icons/resumeicongray.png" onmouseover="newImgResume()" onmouseout="oldImgResume()">
+        <img src="~/js/icons/resumeicongray.png" onmouseover="ChangeIcon(this,'js/icons/resumeicon.png')" onmouseout="ChangeIcon(this,'js/icons/resumeicongray.png')" />
     </a>
 </div>
 
 <div class="subtitle">
     <h2>Linguagens de programação</h2>
 </div>
+
 <div class="row">
   <div class="card">
     <div class="card-box-inside">
@@ -28,33 +29,38 @@
     </div>   
     <div class="card-description">
         <h2>C# ASP.NET</h2>
-        <p>Adicionar texto aqui.</p>
-    </div>
-  </div>
-  <div class="card">
-        <div class="card-box-inside"> 
-            <a href="https://docs.oracle.com/javase/tutorial/" target="_blank">
-                <img src="js/icons-cards/java.png" onmouseover="ChangeIcon(this,'js/icons-cards/arrow.png')" onmouseout="ChangeIcon(this,'js/icons-cards/java.png')" />
-            </a> 
-        </div>
-        <div class="card-description">
-        <h2>Java</h2>
-            <p>Adicionar texto aqui.</p>
+            <p>Linguagem de programação primária com sólida experiência e certificações em diversos cursos complementares
+                à formação acadêmica.</p>
     </div>
   </div>
 
-  <div class="card">
+    <div class="card">
         <div class="card-box-inside">
-            <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
-                <img src="js/icons-cards/javascript.png"
-                     onmouseover="ChangeIcon(this,'js/icons-cards/arrow.png')" onmouseout="ChangeIcon(this,'js/icons-cards/javascript.png')" />
+            <a href="https://docs.oracle.com/javase/tutorial/" target="_blank">
+                <img src="js/icons-cards/java.png" onmouseover="ChangeIcon(this,'js/icons-cards/arrow.png')" onmouseout="ChangeIcon(this,'js/icons-cards/java.png')" />
             </a>
         </div>
         <div class="card-description">
-        <h2>JavaScript</h2>
-            <p>Adicionar texto aqui.</p>
+            <h2>Java</h2>
+            <p>Linguagem de programação secundária, com nível de conhecimento intermediário. Também há alguns projetos de exemplo no GitHub.</p>
+        </div>
     </div>
-  </div>    
+
+    <div class="card">
+        <div class="card-box-inside">
+            <a href="https://learn.microsoft.com/pt-br/cpp/cpp/?view=msvc-170" target="_blank">
+                <img src="~/js/icons-cards/c++.png"
+                     onmouseover="ChangeIcon(this,'js/icons-cards/arrow.png')" onmouseout="ChangeIcon(this,'js/icons-cards/c++.png')" />
+            </a>
+        </div>
+        <div class="card-description">
+            <h2>C++</h2>
+            <p>Principal linguagem de programação abordada no nível superior.</p>
+        </div>
+    </div>
+
+ 
+
 </div>
 
 <div class="subtitle">
@@ -70,7 +76,22 @@
         </div>
         <div class="card-description">
             <h2>Visual Studio</h2>
-            <p>Uma IDE bastante completa. Esse site está sendo desenvolvida nela.</p>
+            <p>
+                IDE desenvolvida pela Microsoft para desenvolvimento de software dedicado ao .NET Framework.
+            </p>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-box-inside">
+            <a href="https://code.visualstudio.com/" target="_blank">
+                <img src="js/icons-cards/visualstudiocode.png"
+                     onmouseover="ChangeIcon(this,'js/icons-cards/arrow.png')" onmouseout="ChangeIcon(this,'js/icons-cards/visualstudiocode.png')" />
+            </a>
+        </div>
+        <div class="card-description">
+            <h2>Visual Studio Code</h2>
+            <p>Editor de código versátil com suporte para depuração e controle de versionamento Git incorporado.</p>
         </div>
     </div>
 
@@ -83,44 +104,7 @@
         </div>
         <div class="card-description">
             <h2>IntelliJ IDEA</h2>
-            <p>Uma excelente IDE para programação em linguagem Java.</p>
-        </div>
-    </div>
-</div>
-
-<div class="subtitle">
-       <h2>Linguagens de estilo</h2>        
-</div>
-<div class="row">
-    <div class="card">
-        <div class="card-box-inside">
-            <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">
-                <img src="js/icons-cards/css.png"
-                     onmouseover="ChangeIcon(this,'js/icons-cards/arrow.png')" onmouseout="ChangeIcon(this,'js/icons-cards/css.png')" />
-            </a>
-        </div>   
-         <div class="card-description">
-            <h2>CSS</h2>
-            <p>Adicionar texto aqui.</p>
-         </div>
-     </div>
-</div>
-
-<div class="subtitle">
-    <h2>Linguagens de marcação</h2>
-</div>
-
-<div class="row">
-    <div class="card">
-        <div class="card-box-inside">
-            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">
-                <img src="js/icons-cards/html.png"
-                     onmouseover="ChangeIcon(this,'js/icons-cards/arrow.png')" onmouseout="ChangeIcon(this,'js/icons-cards/html.png')" />
-            </a>
-        </div>
-        <div class="card-description">
-            <h2>HTML</h2>
-            <p>Adicionar texto aqui.</p>
+            <p>Plataforma OSS desenvolvida pela JetBrains para criar IDEs e ferramentas de desenvolvedor com reconhecimento de linguagem.</p>
         </div>
     </div>
 </div>
@@ -132,14 +116,16 @@
 <div class="row">
     <div class="card">
         <div class="card-box-inside">
-            <a href="https://www.microsoft.com/pt-br/sql-server/sql-server-downloads" target="_blank">
-                <img src="js/icons-cards/sqlserver.png"
-                     onmouseover="ChangeIcon(this,'js/icons-cards/arrow.png')" onmouseout="ChangeIcon(this,'js/icons-cards/sqlserver.png')" />
+            <a href="https://www.mysql.com/" target="_blank">
+                <img src="js/icons-cards/mysql.png"
+                     onmouseover="ChangeIcon(this,'js/icons-cards/arrow.png')" onmouseout="ChangeIcon(this,'js/icons-cards/mysql.png')" />
             </a>
         </div>
         <div class="card-description">
-            <h2>SQL Server</h2>
-            <p>Adicionar texto aqui.</p>
+            <h2>MySQL Workbench</h2>
+            <p>
+                Sistema gerenciador de banco de dados que utiliza a linguagem SQL como interface. Utilizado em diversos projetos pessoais.
+            </p>
         </div>
     </div>
 </div>
@@ -158,7 +144,43 @@
         </div>
         <div class="card-description">
             <h2>GIT</h2>
-            <p>Adicionar texto aqui.</p>
+            <p>Sistema de controle de versões distribuído, utilizado para organizar e versionar o código, sempre seguindo a metodologia GitFlow.</p>
+        </div>
+    </div>
+
+</div>
+
+<div class="subtitle">
+    <h2>Tira-dúvidas</h2>
+</div>
+
+<div class="row">
+    <div class="card">
+        <div class="card-box-inside">
+            <a href="https://www.w3schools.com/" target="_blank">
+                <img src="js/icons-cards/w3schools.png"
+                     onmouseover="ChangeIcon(this,'js/icons-cards/arrow.png')" onmouseout="ChangeIcon(this,'js/icons-cards/w3schools.png')" />
+            </a>
+        </div>
+        <div class="card-description">
+            <h2>W3Schools</h2>
+            <p>Site educacional voltado ao aprendizado de tecnologias web.
+                Seu conteúdo inclui tutoriais e referências relacionadas ao HTML, CSS e JavaScript.</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-box-inside">
+            <a href="https://developer.mozilla.org/pt-BR/" target="_blank">
+                <img src="js/icons-cards/mdnwebdocs.png"
+                     onmouseover="ChangeIcon(this,'js/icons-cards/arrow.png')" onmouseout="ChangeIcon(this,'js/icons-cards/mdnwebdocs.png')" />
+            </a>
+        </div>
+        <div class="card-description">
+            <h2>MDN Web Docs</h2>
+            <p>
+                Website oficial de Mozilla para desenvolvimento de padrões web.
+            </p>
         </div>
     </div>
 </div>
@@ -190,7 +212,7 @@
 </div>
 
 <div class="subtitle">
-    <h2>Acervo e criação de ícones</h2>
+    <h2>Imagens</h2>
 </div>
 
 <div class="row">
@@ -203,7 +225,9 @@
         </div>
         <div class="card-description">
             <h2>Flaticon</h2>
-            <p>Mais de 9.7 milhões de ícones prontos para uso.</p>
+            <p>
+                Plataforma online que disponibiliza vetores em diversos tamanhos, cores e formatos.
+            </p>
         </div>
     </div>
 
@@ -216,7 +240,28 @@
         </div>
         <div class="card-description">
             <h2>ReduceImages</h2>
-            <p>Altera o tamanho de imagens, possibilitando a criação de ícones.</p>
+            <p>
+                Website gratuito para redimensionar imagens e modificar seu formato, comprimir e salvar como JPG, PNG e GIF.
+            </p>
+        </div>
+    </div>
+</div>
+
+<div class="subtitle">
+    <h2>Edição de imagens</h2>
+</div>
+
+<div class="row">
+    <div class="card">
+        <div class="card-box-inside">
+            <a href="https://www.adobe.com/br/products/photoshop.html" target="_blank">
+                <img src="~/js/icons-cards/photoshop.png"
+                     onmouseover="ChangeIcon(this,'js/icons-cards/arrow.png')" onmouseout="ChangeIcon(this,'js/icons-cards/photoshop.png')" />
+            </a>
+        </div>
+        <div class="card-description">
+            <h2>Photoshop</h2>
+            <p>Software editor de imagens bidimensionais, possuo experiência com a ferramenta por meio do curso técnico e ensino superior.</p>
         </div>
     </div>
 </div>
@@ -267,7 +312,8 @@
 </div>
 
 <div class="footer">
-    <p>Site criado por Guilherme Luís. Sinta-se livre para entrar em contato.</p>
+    <p>Site criado por Guilherme Luís na linguagem C# utilizando a framework ASP.NET.</p>
+    <p>Sinta-se livre para entrar em contato.</p>
     <div class="footer-iconFooter">
         <a href="https://www.linkedin.com/in/guilherme-lu%C3%ADs-carneiro-da-silva-2b3160252/" target="_blank">
             <img src="~/js/icons/linkedingray.png" onmouseover="ChangeIcon(this,'js/icons/linkedin.png')" onmouseout="ChangeIcon(this,'js/icons/linkedingray.png')" />

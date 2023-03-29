@@ -57,6 +57,7 @@ body {
     
 }
 
+/*Icon*/
 
 .icon {
     position: relative;
@@ -67,25 +68,32 @@ body {
     top: -3rem;
     gap: 0.8rem;
 }
+/*icon types*/
+.icon a {
+    text-decoration: none;
+}
 
-        .icon a {
-            text-decoration: none;
-        }
+.icon img {
+    transition: all 0.3s;
+    border-radius: 0.5rem;
+}
 
-        .icon img {
-            transition: all 0.3s;
-            border-radius: 0.5rem;
-        }
+/* icon image */
+.icon img:hover {
+    transform: translateY(-6px);
+    transition: all 0.5s ease-in-out;
+}
+/*icon image end */
+/*icon types end */
 
-            .icon img:hover {
-                transform: translateY(-10px);
-            }
+/*Icon end*/
 
 .subtitle {
-    left: 0;
+    margin-left: -1rem;
     width: 100%;
     position: relative;
     text-align: center;
+    justify-content: center;
     color: black;
     font-weight: bold;
     margin-bottom: 2rem;
@@ -96,41 +104,36 @@ body {
         font-size: 2.0rem;
         
     }
-
-    subtitles p {
-        font-size: 1.1rem;
-   
-    }
    
 
 .row {
     width: 100%;
-    left: 0;
     display:flex;     
-    justify-content: center;
+    justify-content: center;   
     position: relative;
-    gap: 2.5rem;   
+    gap: 2rem;   
 }
 
 .card {
     background-color: white;
     width: 300px;
     height: 350px;
-    border-radius: 15px;
+    border-radius: 1.5rem;
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    box-shadow: 1px 0px 5px 0px #CBCED6;
+    box-shadow: 0.3rem 0.3rem 0.4rem #CBCED6, -0.3rem -0.3rem 0.4rem white;
 }
     .card:hover {
-        transform: translateY(-5px);
+        transform: translateY(-8px);
+        transition: all 0.5s ease-in-out;
     }
    
 .card-box-inside {
     width: 80%;
     height: 35%;
     margin-top: 2%;
-    margin-bottom: 1%;
+    margin-bottom: 5%;
     position: relative;
     justify-content: center;
     top: 20%;
@@ -184,8 +187,8 @@ body {
        width: 100%;
        justify-content: center;
        align-content: center;
-       font-size:0.8rem;
-       padding-top: 1rem;
+       font-size:0.7rem;
+       margin-top: 0.7rem;
    }
 
 
@@ -210,7 +213,13 @@ body {
     }
 
         .footer-iconFooter img:hover {
-            transform: translateY(-10px);
+            transform: translateY(-6px);
+            transition: all 0.5s ease-in-out;
         }
 
 
+@media screen and (width: 320px) {
+    .row {
+        margin-left: 0.1rem;
+    }
+}

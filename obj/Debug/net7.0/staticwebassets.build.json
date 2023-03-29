@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "P9rPxV1bPy5imxEPkKUgUwbXMngU+H/TeRvGB1px3TE=",
+  "Hash": "5sm97PiV8vgwlZxvLIPUly+wI5oYFB0KX5jVQrbLY5k=",
   "Source": "Guilherme",
   "BasePath": "_content/Guilherme",
   "Mode": "Default",
@@ -238,6 +238,23 @@
       "OriginalItemSpec": "wwwroot\\js\\icons-cards\\arrow.png"
     },
     {
+      "Identity": "C:\\Users\\gui_f\\source\\repos\\Guilherme\\wwwroot\\js\\icons-cards\\c++.png",
+      "SourceId": "Guilherme",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gui_f\\source\\repos\\Guilherme\\wwwroot\\",
+      "BasePath": "_content/Guilherme",
+      "RelativePath": "js/icons-cards/c++.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\icons-cards\\c++.png"
+    },
+    {
       "Identity": "C:\\Users\\gui_f\\source\\repos\\Guilherme\\wwwroot\\js\\icons-cards\\coolors.png",
       "SourceId": "Guilherme",
       "SourceType": "Discovered",
@@ -270,23 +287,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\icons-cards\\csharp.png"
-    },
-    {
-      "Identity": "C:\\Users\\gui_f\\source\\repos\\Guilherme\\wwwroot\\js\\icons-cards\\css.png",
-      "SourceId": "Guilherme",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gui_f\\source\\repos\\Guilherme\\wwwroot\\",
-      "BasePath": "_content/Guilherme",
-      "RelativePath": "js/icons-cards/css.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\icons-cards\\css.png"
     },
     {
       "Identity": "C:\\Users\\gui_f\\source\\repos\\Guilherme\\wwwroot\\js\\icons-cards\\english.png",
@@ -340,23 +340,6 @@
       "OriginalItemSpec": "wwwroot\\js\\icons-cards\\git.png"
     },
     {
-      "Identity": "C:\\Users\\gui_f\\source\\repos\\Guilherme\\wwwroot\\js\\icons-cards\\html.png",
-      "SourceId": "Guilherme",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gui_f\\source\\repos\\Guilherme\\wwwroot\\",
-      "BasePath": "_content/Guilherme",
-      "RelativePath": "js/icons-cards/html.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\icons-cards\\html.png"
-    },
-    {
       "Identity": "C:\\Users\\gui_f\\source\\repos\\Guilherme\\wwwroot\\js\\icons-cards\\intellij.png",
       "SourceId": "Guilherme",
       "SourceType": "Discovered",
@@ -391,12 +374,12 @@
       "OriginalItemSpec": "wwwroot\\js\\icons-cards\\java.png"
     },
     {
-      "Identity": "C:\\Users\\gui_f\\source\\repos\\Guilherme\\wwwroot\\js\\icons-cards\\javascript.png",
+      "Identity": "C:\\Users\\gui_f\\source\\repos\\Guilherme\\wwwroot\\js\\icons-cards\\mdnwebdocs.png",
       "SourceId": "Guilherme",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\gui_f\\source\\repos\\Guilherme\\wwwroot\\",
       "BasePath": "_content/Guilherme",
-      "RelativePath": "js/icons-cards/javascript.png",
+      "RelativePath": "js/icons-cards/mdnwebdocs.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -405,7 +388,24 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\icons-cards\\javascript.png"
+      "OriginalItemSpec": "wwwroot\\js\\icons-cards\\mdnwebdocs.png"
+    },
+    {
+      "Identity": "C:\\Users\\gui_f\\source\\repos\\Guilherme\\wwwroot\\js\\icons-cards\\mysql.png",
+      "SourceId": "Guilherme",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gui_f\\source\\repos\\Guilherme\\wwwroot\\",
+      "BasePath": "_content/Guilherme",
+      "RelativePath": "js/icons-cards/mysql.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\icons-cards\\mysql.png"
     },
     {
       "Identity": "C:\\Users\\gui_f\\source\\repos\\Guilherme\\wwwroot\\js\\icons-cards\\paletton.png",
@@ -423,6 +423,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\icons-cards\\paletton.png"
+    },
+    {
+      "Identity": "C:\\Users\\gui_f\\source\\repos\\Guilherme\\wwwroot\\js\\icons-cards\\photoshop.png",
+      "SourceId": "Guilherme",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gui_f\\source\\repos\\Guilherme\\wwwroot\\",
+      "BasePath": "_content/Guilherme",
+      "RelativePath": "js/icons-cards/photoshop.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\icons-cards\\photoshop.png"
     },
     {
       "Identity": "C:\\Users\\gui_f\\source\\repos\\Guilherme\\wwwroot\\js\\icons-cards\\resizeimages.png",
@@ -491,6 +508,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\icons-cards\\visualstudio.png"
+    },
+    {
+      "Identity": "C:\\Users\\gui_f\\source\\repos\\Guilherme\\wwwroot\\js\\icons-cards\\visualstudiocode.png",
+      "SourceId": "Guilherme",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gui_f\\source\\repos\\Guilherme\\wwwroot\\",
+      "BasePath": "_content/Guilherme",
+      "RelativePath": "js/icons-cards/visualstudiocode.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\icons-cards\\visualstudiocode.png"
+    },
+    {
+      "Identity": "C:\\Users\\gui_f\\source\\repos\\Guilherme\\wwwroot\\js\\icons-cards\\w3schools.png",
+      "SourceId": "Guilherme",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gui_f\\source\\repos\\Guilherme\\wwwroot\\",
+      "BasePath": "_content/Guilherme",
+      "RelativePath": "js/icons-cards/w3schools.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\icons-cards\\w3schools.png"
     },
     {
       "Identity": "C:\\Users\\gui_f\\source\\repos\\Guilherme\\wwwroot\\js\\site.js",
